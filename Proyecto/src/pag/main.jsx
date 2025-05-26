@@ -1,5 +1,6 @@
 import React from "react";
 import CursosAplicados from "./props/cursos";
+import VentaLibros from "./props/libros";
 export default function Main() {
     return (
         <main>
@@ -17,6 +18,13 @@ export default function Main() {
                     <li>✅ Proyectos prácticos paso a paso</li>
                     <li>✅ Recursos, consejos y comunidad de apoyo</li>
                 </ul>
+            </section>
+
+           <section className="section1">
+                <h2 style={{textAlign:"center"}}>Libros de Aprendizaje</h2>
+                <div className="d-flex justify-content-center flex-wrap">
+                    <VentaLibros/>
+                </div>
             </section>
 
             <section className="section">
